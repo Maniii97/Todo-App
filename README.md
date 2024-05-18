@@ -1,4 +1,5 @@
-# React + TypeScript + Vite
+# Todo-App
+A simple todo application made while learning react.js. Used LocalStorage to save the data.
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
