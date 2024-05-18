@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: antiquewhite;
+}
+
+
+nav{
+  margin : 0;
+  padding : 0;
+}
+
+nav{
+  background-color: rgb(44,30,242);
+  color : white;
+  padding : 16px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 1.25rem;
+}
+
+.TodoText{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+  font-size: 40px;
+  color : black
+}
+
+.container{
+  margin: auto;
+  margin-top: 32px;
+  min-height: 100vh;
+  width: 75%;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.container > form{
+  display: flex;
+  flex-direction: column;
+}
+
+.container > form > input,textarea,button{
+  padding: 20px;
+  border: 1px solid #00000030;
+  border-radius: 5px;
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+button{
+  cursor: pointer;
+  background-color: rgb(37, 37, 37);
+  color: white;
+}
+
+.Goals{
+  display: flex;
+  margin-top: 32px;
+  padding: 20px;
+  border : 1px solid #00000030;
+  border-radius: 5px;
+}
+
+.Goals > div{
+  width : 100%
+}
+
+.Goals > div > p{
+  font-size: 22px;
+}
+
+.Goals > div > span{
+  color : rgba(0, 0, 0, 0.685);
+  font-size: 18px;
+}
+
+.Goals > button{
+  display: flex;
+  border-radius: 100%;
+  height : 30px;
+  width : 30px;
+  font-size: 1.5rem;
+  background-color: crimson;
+  justify-content: center;
+  align-items: center;
+}
+
+.Goals > button:hover{
+  background-color: red;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  font-size: 1.3rem;
+}
